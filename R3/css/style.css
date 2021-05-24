@@ -1,0 +1,29 @@
+video{
+    width:564px;
+    height:auto
+}
+
+.content {
+    display: flex;
+    padding: 30px;
+}
+
+.texts {
+    padding: 30px;
+}
+
+h2 {font-size: 40px;font-weight: 900;}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    video{
+        width: 92%;
+        padding-left: 30px;
+        height:auto
+    }
+}
